@@ -1,21 +1,3 @@
-# CSE 109 - Systems Software - Spring 2023
-
-# Program 3 - HashSet
-
-⏰ **Due Date: 4/10/2023 EOD**
-
-## Instructions 
-
-**Read thoroughly before starting your project:**
-
-1. Fork this repository into your CSE109 project namespace. [Instructions](https://docs.gitlab.com/ee/workflow/forking_workflow.html#creating-a-fork)
-2. Clone your newly forked repository onto your development machine. [Instructions](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html#clone-a-repository) 
-3. As you are writing code you should commit patches along the way. *i.e.* don't just submit all your code in one big commit when you're all done. Commit your progress as you work. 
-
-**💥IMPORTANT: You must commit frequently as you work on your project. As a general rule try to make at least one commit per function you implement.**
-
-4. When you've committed all of your work, there's nothing left to do to submit the assignment.
-
 ## Assignment
 
 In assignment you will implement a hash set data structure in C++. The core of the hashset is an array of linked list pointers. The type of the table is a `LinkedList**`. The first star indicates it's a pointer to an array, the second star indicates each array element holds a LinkedList pointer. The Hashset also holds its size, and the current load factor. The load factor will be recalculated on each insert. 
